@@ -1,5 +1,5 @@
 
-wm_dir="/users/grace/.wm"
+wm_dir="/users/drgz/wm"
 
 scheme="$2"
 monitor="$1"
@@ -29,7 +29,7 @@ xrdb -load "$scheme_dir/Xresources"
 
 xsetroot -cursor_name left_ptr
 
-xset +fp /users/grace/.local/share/fonts
+xset +fp /users/drgz/.local/share/fonts
 xset fp rehash
 
 sh "$scheme_dir/setup.sh"
